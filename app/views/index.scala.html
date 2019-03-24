@@ -1,0 +1,16 @@
+@()
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home</title>
+        <link rel="shortcut icon" type="image/png"
+           href="@routes.Application.versioned("images/favicon.png")">
+        <link rel="stylesheet"
+           href="@routes.Application.versioned("compiled/styles.css")">
+    </head>
+    <body>
+        <h1>Hello Play</h1>
+        <div id="reactView"></div>
+    </body>
+    <script src="@routes.Application.versioned("compiled/bundle.js")"></script>
+</html>
